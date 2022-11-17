@@ -1,0 +1,194 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+.container{
+    height: 1360px;
+    width: 375px;
+    background: #FAFAFA;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+.firsttext{
+    height: 36px;
+    width: 375px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    padding-left: 40px;
+    color: #4D4F62;
+}
+.secondtext{
+    height: 36px;
+    width: 375px; 
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    padding-left: 40px;
+    color: #101120;
+}
+.thirdtext{
+    height: 75px;
+    width: 375px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1041666641831398px;
+    text-align: center;
+    color: #4D4F62;  
+    padding-left: 35px; 
+    padding-right: 35px;
+    padding-top: 20px;
+}
+.context{
+    margin-top: 65px;
+}
+.supervisor, .teambuilder, .karma, .calculator{
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 103px;
+}
+h1{
+    padding-left: 26px;
+    padding-top: 27px;
+    color: #292b38;
+}
+p{
+    padding: 1px 28px;
+    color: #4D4F62;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-top: 20px;
+    
+}
+.search, .homepage, .idea, .software{
+    display: flex;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+.supervisor{
+    background-image: url(mobile/Rectangle\ Copy.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.teambuilder{
+    background-image: url(mobile/red.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.karma{
+    background-image: url(mobile/orange.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.calculator{
+    background-image: url(mobile/blue.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+@media screen and (max-width: 1439.5px){
+       .twocard , .fourcard{
+           display: none;
+       }
+}
+@media screen and (min-width: 1439.5px){
+    .container{
+        height: 922px;
+        width: 1440px;
+        background: #FAFAFA;
+}
+    .firsttext{
+        height: 54px;
+        width: 1444px;
+        font-family: 'Poppins';
+        font-size: 36px;
+        font-weight: 275;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        text-align: center;       
+}
+     .secondtext{
+        height: 54px;
+        width: 1441px;
+        font-family: 'Poppins';
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        text-align: center;
+     }
+     .thirdtext{
+        height: 50px;
+        width: 600px;
+       text-align: center;
+       margin-left: 430px;
+     }
+     .main-container{
+         display: none;
+     }
+     .twocard{
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+         margin-top: 80px;
+         gap: 30px;     
+     }
+     .fourcard{
+         display: flex;
+         justify-content: center;
+         gap: 400px;
+         margin-top: -350px;
+         border-top-color: orangered;
+     }
+     .supervisor{
+        height: 250px;
+        width: 350px; 
+        background-image: url(mobile/Rectangle\ Copy.png);
+        background-size:450px;
+     }
+     .karma{
+        height: 250px;
+        width: 350px;
+        background-image: url(mobile/orange.png);
+        background-size:450px;
+     }
+     .teambuilder{
+        height: 250px;
+        width: 350px;
+        background-image: url(mobile/red.png);
+        background-size:450px;
+     }
+     .calculator{
+        height: 250px;
+        width: 350px;
+        background-image: url(mobile/blue.png);
+        background-size:450px;
+     }
+
+
+
+}
